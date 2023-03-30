@@ -7,6 +7,7 @@ import java.util.Set;
 
 import Task3.drags.Component;
 import Task3.drags.impl.components.Azitron;
+import Task3.drags.impl.components.Pinecilin;
 
 
 public class Main {
@@ -14,9 +15,9 @@ public class Main {
         
         Component Azitron1 = new Azitron("Азитрон","2",5);
         Component Azitron2 = new Azitron("Азитрон","2",5);
-        Component Pinecilin = new Azitron("Пинецилин","10",7);
-        Component Pinecilin2 = new Azitron("Пинецилин","15",7);
-        Component Pinecilin3 = new Azitron("Пинецилин","15",9);
+        Component Pinecilin = new Pinecilin("Пинецилин","10",7);
+        Component Pinecilin2 = new Pinecilin("Пинецилин","15",7);
+        Component Pinecilin3 = new Pinecilin("Пинецилин","15",9);
         Component Pinecilin4 = Pinecilin3;
         List<Component> components = new ArrayList<>();
         components.add(Azitron1);
